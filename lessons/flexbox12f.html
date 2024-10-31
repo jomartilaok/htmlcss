@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flexbox12f</title>
+  <style>
+    .container{
+      display: flex;
+      justify-content: space-between;
+      background-color: lightcyan;
+      align-items: center;
+    }
+    .home{
+      width: 100px;
+      margin-left: 20px;
+    }
+    .text{
+      border-radius: 20px;
+      flex: 1;
+      margin-right: 100px;
+      
+      border: solid 1px gray;
+      padding-left: 15px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+     
+    }
+    .button{
+      border: solid 1px white;
+      background-color: lightskyblue;
+      color: white;
+      border-radius: 4px;
+      padding-left: 15px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-right: 15px;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <p class="home">Home</p>
+    <input class="text" type="text" placeholder="Search">
+    <button class="button">Download</button>
+
+  </div>
+</body>
+</html>

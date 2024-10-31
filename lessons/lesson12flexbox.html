@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flexbox</title>
+  <style>
+    .first{
+      display: flex;
+      flex-direction: row;
+    }
+
+    .second{
+      width:  200px;
+      background-color: lightblue;
+    }
+    .third{
+      width: 75px;
+      background-color: lightpink;
+    }
+
+    .twelveb{
+      display: flex;
+      flex-direction: row;
+    }
+    .uno{
+      width:50px;
+      background-color: lightblue;
+
+    }
+    .dos{
+      flex: 1;
+      background-color: lightpink;
+
+    }
+    .tres{
+      width: 75px;
+      background-color: lightblue;
+
+    }
+    .items{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .item1,
+    .item2,
+    .item3,
+    .item4{
+      background-color: lightpink;
+      
+    }
+    .last{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      height: 50px;
+      border: solid 1px gray;
+      align-items: center;
+    }
+    .lastt{
+      background-color: pink;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="first">
+    <div class="second">
+      200px
+    </div>
+    <div class="third">
+      75px
+    </div>
+  </div>
+
+  <div class="twelveb">
+    <div class="uno">
+      item1
+    </div>
+    <div class="dos">
+      item2
+    </div>
+    <div class="tres">
+      item3
+    </div>
+  </div>
+
+  <div class="items">
+    <div class="item1">
+      item1
+    </div>
+    <div class="item2">
+      item2
+    </div>
+    <div class="item3">
+      item3
+    </div>
+    <div class="item4">
+      item4
+    </div>
+  </div>
+
+  <div class="last">
+    <div class="lastt">
+      item1
+    </div>
+    <div class="lastt">
+      item2
+    </div>
+  </div>
+</body>
+</html>

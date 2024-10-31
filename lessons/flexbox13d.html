@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flexbox13d</title>
+  <style>
+    
+    .container{
+      border: solid 1px gray;
+      padding-left: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 10px;
+      border-radius: 2px;
+      width: 400px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+
+    }
+    .all-inboxes{
+      color: gray;
+      
+    }
+
+    .info-container{
+      display: flex; 
+      align-items: center;
+      
+    }
+    .profile-container{
+    margin-right: 10px;
+    }
+    .profile{
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 25px;
+      
+    }
+    .chewy-date{
+     flex: 1;
+   
+    }
+    .sales{
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+    .hey{
+      margin-top: 0;
+      padding-bottom: 0;
+    }
+    .chewy{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 20px;
+    }
+    .biggg{
+      font-weight: bold;
+      margin-bottom: 0;
+      font-size: 20px;
+      margin-top: 0;
+      height: 20px;
+    }
+    .bigg{
+      font-weight: bold;
+      margin-top: 0;
+      font-size: 20px;
+      margin-bottom: 2px;
+      
+    }
+    .heyy{
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+    .time{
+      color: rgb(92, 46, 46);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="all-inboxes">ALL INBOXES</div>
+    <div class="info-container">
+      <div class="profile-container">
+        <img class="profile" src="/thumbnails/cat.jfif" alt="">
+      </div>
+      <div class="chewy-date">
+          <div class="chewy">
+          <p class="biggg">Chewy Promotions</p>
+          <p class="time">4:58 PM</p>
+          </div>
+       
+        <div class="sales">
+          <p class="bigg">Biggest sales of the year!</p>
+        </div>
+        <div class="hey">
+          <p class="heyy">Hey there! We're writing to tell you about our..</p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</body>
+</html>
